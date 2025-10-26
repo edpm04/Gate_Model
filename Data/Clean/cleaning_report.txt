@@ -1,7 +1,7 @@
 
 REPORTE DE LIMPIEZA DE DATOS
 ================================================================================
-Fecha de ejecución: 2025-10-25 17:32:09
+Fecha de ejecución: 2025-10-25 21:50:10
 
 ARCHIVO A:
 Dimensiones iniciales: 615791 filas x 17 columnas

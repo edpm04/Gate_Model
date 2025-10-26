@@ -1,8 +1,0 @@
-Initial commit: Data cleaning pipeline and EDA notebook
-
-    - Added data cleaning pipeline with automated quality checks
-    - Created comprehensive EDA notebook with 13 analysis sections
-    - Implemented pipeline to remove duplicates, null values, and invalid data
-    - Added analysis of item_code distribution (top and bottom performers)
-    - Configured .gitignore to exclude large data files
-    - Dataset: 1.3M+ clean records from GateGroup Airlines (Jan-Aug 2025)
