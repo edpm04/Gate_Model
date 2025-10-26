@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.virtualenvs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files - Ignorar todos los archivos de datos
+Data/Raw/*
+Data/Clean/*
+
+# Mantener la estructura de carpetas pero ignorar contenido
+!Data/Raw/.gitkeep
+!Data/Clean/.gitkeep
+
+# Reports and outputs (excepto cleaning_report.txt que es útil)
+*.log
+!Data/Clean/cleaning_report.txt
+*.pdf
+*.xlsx
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+

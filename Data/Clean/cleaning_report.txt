@@ -1,0 +1,69 @@
+
+REPORTE DE LIMPIEZA DE DATOS
+================================================================================
+Fecha de ejecución: 2025-10-25 17:32:09
+
+ARCHIVO A:
+Dimensiones iniciales: 615791 filas x 17 columnas
+✓ Paso 1: Normalizando nombres de columnas
+✓ Paso 2: Convirtiendo tipos de datos
+✓ Paso 3: No se encontraron duplicados
+  - Eliminados 442 registros con pasajeros negativos
+  - Eliminados 3359 registros con ventas negativas
+✓ Paso 4: Total de registros inválidos eliminados: 12894
+  Columnas con valores nulos antes de limpiar:
+    - origen: 1606 (0.27%)
+    - destino: 1606 (0.27%)
+    - departute_local_time: 120 (0.02%)
+    - category: 23 (0.00%)
+    - supercategory: 41 (0.01%)
+    - item_code: 41 (0.01%)
+    - warehouse: 12 (0.00%)
+✓ Paso 5: Eliminadas 1779 filas con valores nulos
+✓ Paso 6: Validando datos limpios
+  - Total de valores nulos: 0
+  - Pasajeros: min=13, max=365
+  - Ventas: min=0.0, max=70.0
+  - Rango de fechas: 2025-01-01 00:00:00 a 2025-04-30 00:00:00
+
+Dimensiones finales: 601118 filas x 17 columnas
+Filas eliminadas: 14673 (2.38%)
+Filas conservadas: 601118 (97.62%)
+
+ARCHIVO B:
+Dimensiones iniciales: 716413 filas x 17 columnas
+✓ Paso 1: Normalizando nombres de columnas
+✓ Paso 2: Convirtiendo tipos de datos
+✓ Paso 3: No se encontraron duplicados
+  - Eliminados 742 registros con pasajeros negativos
+  - Eliminados 4074 registros con ventas negativas
+✓ Paso 4: Total de registros inválidos eliminados: 13965
+  Columnas con valores nulos antes de limpiar:
+    - departute_local_time: 10456 (1.49%)
+    - category: 34 (0.00%)
+    - supercategory: 34 (0.00%)
+    - item_code: 34 (0.00%)
+✓ Paso 5: Eliminadas 10489 filas con valores nulos
+✓ Paso 6: Validando datos limpios
+  - Total de valores nulos: 0
+  - Pasajeros: min=3, max=359
+  - Ventas: min=0.0, max=200.0
+  - Rango de fechas: 2025-05-01 00:00:00 a 2025-08-30 00:00:00
+
+Dimensiones finales: 691959 filas x 17 columnas
+Filas eliminadas: 24454 (3.41%)
+Filas conservadas: 691959 (96.59%)
+
+DATASET COMBINADO FINAL:
+- Total de filas: 1293077
+- Total de columnas: 17
+- Duplicados entre archivos eliminados: 0
+- Archivo guardado: Data\Clean\cleaned_data_combined.csv
+
+COLUMNAS FINALES:
+flight_key, passengers, nombre_de_aerolinea, fecha, origen, destino, flight_no, departute_local_time, arrival_local_time, sales, type_transaction, category, supercategory, lost_sales, item_code, currency, warehouse
+
+RESUMEN DE CALIDAD:
+- Valores nulos: 0
+- Filas duplicadas: 0
+- Integridad de datos: ✅ VERIFICADA
